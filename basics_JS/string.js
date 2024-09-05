@@ -10,15 +10,18 @@ console.log(
   `Welcome ${userDetail.userName} to our forum, your name is ${userDetail.firstName} ${userDetail.lastName} and Email: ${userDetail.emailId} and age is ${userDetail.age}`
 );
 
+userDetail.userName = "iiiiii";
+console.log(userDetail);
+
 let userChanges = userDetail;
 userChanges.age = 42;
-userChanges.firstName="vijay"
+userChanges.firstName = "vijay";
 
 console.log(userChanges);
 
 // Strings methods practice
 
-const gameName="frycry"
+const gameName = "frycry";
 
 console.log(gameName.toUpperCase());
 console.log(gameName[0]);
@@ -26,7 +29,7 @@ console.log(gameName.__proto__);
 
 //convert in array
 
-const userData="rahul pushpad indore mp 8120382370"
+const userData = "rahul pushpad indore mp 8120382370";
 console.log(userData.split(' '));
 
 
