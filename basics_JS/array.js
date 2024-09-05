@@ -16,4 +16,10 @@ const studentsGroup=girlsGroup.concat(boysGroup);
 
 // console.table(studentsGroup.join());
 
-console.table(studentsGroup.sort());
+// console.table(studentsGroup.sort());
+
+//spread method
+
+const allGroup=[...girlsGroup,...boysGroup];
+
+console.table(allGroup);
